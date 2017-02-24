@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GPRS_SMS", "GPRS_SMS\GPRS_SMS.vcproj", "{9FA21ED8-FE66-44A7-833B-CCD40156F42A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FA21ED8-FE66-44A7-833B-CCD40156F42A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9FA21ED8-FE66-44A7-833B-CCD40156F42A}.Debug|Win32.Build.0 = Debug|Win32
+		{9FA21ED8-FE66-44A7-833B-CCD40156F42A}.Release|Win32.ActiveCfg = Release|Win32
+		{9FA21ED8-FE66-44A7-833B-CCD40156F42A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

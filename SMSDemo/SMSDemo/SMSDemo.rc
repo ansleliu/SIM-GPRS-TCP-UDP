@@ -1,0 +1,247 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\SMSDemo.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\SMSDemo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 SMSDemo"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "SMSDemo，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_SMSDEMO_DIALOG DIALOGEX 0, 0, 503, 246
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "asdw"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,15,18,272,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,15,40,272,13,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "显示区",IDC_STATIC,7,7,300,53
+    PUSHBUTTON      "拨号",IDC_BBH,24,86,73,19
+    PUSHBUTTON      "清除",IDC_BQC,102,86,72,19
+    PUSHBUTTON      "接听",IDC_BBT,24,109,73,17
+    PUSHBUTTON      "挂断",IDC_BGD,102,109,72,17
+    GROUPBOX        "操作区",IDC_STATIC,15,74,169,57
+    PUSHBUTTON      "1",IDC_B1,24,146,43,17
+    PUSHBUTTON      "2",IDC_B2,77,146,45,17
+    PUSHBUTTON      "3",IDC_B3,132,146,42,17
+    PUSHBUTTON      "4",IDC_B4,24,169,43,16
+    PUSHBUTTON      "5",IDC_B5,77,169,45,16
+    PUSHBUTTON      "6",IDC_B6,132,169,42,16
+    PUSHBUTTON      "7",IDC_B7,24,190,43,16
+    PUSHBUTTON      "8",IDC_B8,77,190,45,16
+    PUSHBUTTON      "9",IDC_B9,132,190,42,16
+    PUSHBUTTON      "*",IDC_BF1,24,210,43,16
+    PUSHBUTTON      "0",IDC_B0,77,210,45,16
+    PUSHBUTTON      "#",IDC_BF2,131,210,42,16
+    GROUPBOX        "拨号键",IDC_STATIC,15,135,169,98
+    PUSHBUTTON      "打开串口",IDC_OPENPORT,202,87,41,31
+    PUSHBUTTON      "关闭串口",IDC_BCLOSE,247,86,39,30
+    PUSHBUTTON      "  初始化GPRS",IDC_INITGPRS,201,124,85,30
+    PUSHBUTTON      "短信初始化",IDC_INITSMS,201,161,85,27
+    PUSHBUTTON      "复位",IDC_BREST,201,194,41,32
+    PUSHBUTTON      "退出",IDC_BEXIT,247,195,39,31
+    GROUPBOX        "其他设置区",IDC_STATIC,192,74,104,159
+    LTEXT           "短信中心号码:",IDC_STATIC,321,18,46,14,SS_CENTERIMAGE
+    LTEXT           "发送至号码:",IDC_STATIC,321,41,43,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT3,367,18,113,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,366,40,114,13,ES_AUTOHSCROLL
+    LTEXT           "序列号:",IDC_STATIC,321,60,43,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT5,367,60,113,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MESSAGE,321,92,159,48,ES_AUTOHSCROLL
+    LTEXT           "短信编辑框",IDC_STATIC,321,80,43,10,SS_CENTERIMAGE
+    LTEXT           "短信显示区",IDC_STATIC,321,143,42,10
+    PUSHBUTTON      "发送短信",IDC_SENDMESG,321,210,73,23
+    PUSHBUTTON      "显示SIM卡短信",IDC_READMESG,414,210,66,23
+    GROUPBOX        "键盘区",IDC_STATIC,7,65,300,174
+    GROUPBOX        "短信操作区",IDC_STATIC,313,7,183,232
+    LISTBOX         IDC_LIST1,320,153,160,55,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "SMSDemo.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "SMSDemo.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_SMSDEMO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 496
+        VERTGUIDE, 313
+        VERTGUIDE, 320
+        VERTGUIDE, 480
+        VERTGUIDE, 488
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 239
+        HORZGUIDE, 233
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 SMSDemo(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\SMSDemo.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
